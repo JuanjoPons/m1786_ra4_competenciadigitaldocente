@@ -1,0 +1,6 @@
+{
+  "name": "CDPD RA4 - Evaluación mediante Tecnologías Digitales",
+  "description": "Aplicación interactiva del módulo CDPD (1786) RA4 de Evaluación mediante tecnologías digitales, con diseño adaptado a la estética Sklep y el joven explorador 3D.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
