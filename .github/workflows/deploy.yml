@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 22
       - run: npm install --legacy-peer-deps
+      - run: sed -i s,/public/assets/,./assets/,g src/components/*.tsx
       - run: npx vite build --base=/${{ github.event.repository.name }}/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
